@@ -43,7 +43,8 @@ class CustomRuleSetProvider : RuleSetProvider {
     override fun instance(config: Config): RuleSet = RuleSet(
         ruleSetId,
         listOf(
-            NoSyntheticImportRule()
+            NoSyntheticImportRule(),
+            AvoidToUseToastRule()
         )
     )
 }
