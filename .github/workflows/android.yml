@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  code-check:
+  detekt-code-check:
 
     runs-on: ubuntu-latest
 
