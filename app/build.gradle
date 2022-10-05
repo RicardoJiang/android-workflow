@@ -5,6 +5,7 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
     id "io.gitlab.arturbosch.detekt"
+    id "org.jetbrains.kotlin.android.extensions"
 }
 
 android {
@@ -41,6 +42,7 @@ dependencies {
     implementation 'com.google.android.material:material:1.6.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.21.0"
+    detektPlugins project(":customRules")
 }
 
 detekt {
