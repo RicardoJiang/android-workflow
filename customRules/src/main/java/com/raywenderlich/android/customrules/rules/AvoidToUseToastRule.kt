@@ -10,7 +10,7 @@ import org.jetbrains.kotlin.descriptors.containingPackage
 import org.jetbrains.kotlin.psi.KtReferenceExpression
 import org.jetbrains.kotlin.resolve.BindingContext
 
-class AvoidToUseToastRule() : Rule() {
+class AvoidToUseToastRule : Rule() {
     override val issue = Issue(
         "AvoidUseToastRule",
         Severity.Maintainability,
