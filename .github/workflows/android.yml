@@ -24,3 +24,5 @@ jobs:
       run: chmod +x gradlew
     - name: DeteKt Code Check
       run: ./gradlew detektDebug
+    - name: Module Api Check
+      run: ./gradlew apiCheck

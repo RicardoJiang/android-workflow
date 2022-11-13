@@ -1,7 +1,7 @@
 package com.zj.mylibrary
 
 class PublicApi {
-    fun publicApi (){
+    fun publicApiMethod() {
         println("public api")
     }
 }
