@@ -1,7 +1,7 @@
 package com.zj.mylibrary
 
 internal class InternalApi {
-    fun internalApi(){
+    fun internalApiMethod() {
         println("internal apiÏ")
     }
 }
