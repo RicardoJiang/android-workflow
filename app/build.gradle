@@ -43,6 +43,7 @@ dependencies {
     implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
     detektPlugins "io.gitlab.arturbosch.detekt:detekt-formatting:1.21.0"
     detektPlugins project(":customRules")
+    implementation(project(":mylibrary"))
 }
 
 detekt {
