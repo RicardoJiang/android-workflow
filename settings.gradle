@@ -15,3 +15,4 @@ dependencyResolutionManagement {
 rootProject.name = "android-workflow"
 include ':app'
 include ':customRules'
+include ':mylibrary'
